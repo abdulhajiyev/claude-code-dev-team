@@ -134,3 +134,7 @@ npm test     # guard and installer tests (Node 20+, no dependencies)
 ## Related
 
 This repository is the local counterpart of a Claude Managed Agents setup (same roles, run in Anthropic's cloud through the API). See the [Managed Agents multiagent docs](https://platform.claude.com/docs/en/managed-agents/multiagent-orchestration) if you want the hosted version.
+
+## License
+
+[MIT](LICENSE)

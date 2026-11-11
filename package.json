@@ -4,9 +4,12 @@
   "private": true,
   "description": "A TDD development team for Claude Code: Opus lead, Haiku context/docs, Fable design, Sonnet tester and implementer, Opus reviewer.",
   "type": "module",
-  "engines": { "node": ">=20" },
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "test": "node --test tests/guard.test.mjs tests/install.test.mjs",
     "install-into": "node install.mjs"
-  }
+  },
+  "license": "MIT"
 }
