@@ -68,6 +68,15 @@ Then, in Claude Code inside your project:
 /plugin install caveman@caveman
 ```
 
+When Claude Code asks you to configure Ponytail's plugin options, use these values to keep everything local:
+
+| Option | Value | Why |
+|---|---|---|
+| Task board | `true` | Writes a per-task row (cost, turns, tokens, tests) to a local CSV in `~/.config/ponytail/band/` |
+| Webhook URL | empty | Nothing leaves your machine |
+| Webhook token | empty | Only used with a webhook |
+| Send task names | `false` | Task names are often your first prompt; keeps them private if you add a webhook later |
+
 Restart Claude Code in the project, then:
 
 ```text
